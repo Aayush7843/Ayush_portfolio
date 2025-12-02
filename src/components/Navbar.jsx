@@ -3,6 +3,9 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
+import Profile from "../assets/profile.png";
+
+
 
 function Navbar() {
   const [menu, setMenu] = useState(false);
@@ -28,7 +31,7 @@ function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <motion.img
-              src="src/assets/ayushp.jpeg"
+              src={Profile}
               className="w-11 h-11 rounded-full object-cover border shadow"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2 }}
