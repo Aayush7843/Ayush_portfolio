@@ -4,6 +4,8 @@ import { FaLinkedin, FaReact } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
+import Profile from "../assets/profile.png";
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -151,7 +153,7 @@ function Home() {
             whileHover={{ scale: 1.05 }}
           >
             <motion.img
-              src="../assets/ayush.png"
+              src={Profile}
               alt="profile"
               className="w-[260px] h-[260px] md:w-[400px] md:h-[400px] rounded-full border-4 border-white shadow-2xl object-cover"
               animate={{ boxShadow: ["0 0 20px #90cdf4", "0 0 40px #63b3ed", "0 0 20px #90cdf4"] }}
