@@ -151,12 +151,13 @@ function Home() {
             whileHover={{ scale: 1.05 }}
           >
             <motion.img
-              src="src/assets/ayushp.jpeg"
+              src="../assets/ayush.png"
               alt="profile"
               className="w-[260px] h-[260px] md:w-[400px] md:h-[400px] rounded-full border-4 border-white shadow-2xl object-cover"
               animate={{ boxShadow: ["0 0 20px #90cdf4", "0 0 40px #63b3ed", "0 0 20px #90cdf4"] }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
             />
+
           </motion.div>
         </div>
       </motion.div>
