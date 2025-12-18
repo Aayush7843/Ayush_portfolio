@@ -4,7 +4,7 @@ import { FaLinkedin, FaReact } from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/ayush.png";
 
 
 const fadeUp = {
